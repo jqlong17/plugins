@@ -1,7 +1,7 @@
 {
   "name": "workflow-bootstrap",
   "version": "0.1.0",
-  "description": "Initialize a numbered workflow workspace with global rules, TDD-first execution plans, and traceable testing templates.",
+  "description": "Initialize a numbered workflow workspace with research, design, TDD-first execution plans, global rules, and traceable testing templates.",
   "author": {
     "name": "ruska",
     "email": "contact@example.com",
@@ -12,14 +12,16 @@
   "license": "MIT",
   "keywords": [
     "workflow",
+    "research",
+    "design",
     "tdd",
     "testing"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Workflow Bootstrap",
-    "shortDescription": "Initialize reusable collaboration workflow folders and rules.",
-    "longDescription": "Creates a numbered workflow directory tree with README indexing, global rules in 00-rule, TDD-first execution guidance, traceable test logs, regression and E2E templates, and a health-report baseline.",
+    "shortDescription": "Initialize reusable research, design, execution, and testing workflow folders.",
+    "longDescription": "Creates a numbered workflow directory tree with README indexing, global rules in 00-rule, research and design stage templates, TDD-first execution guidance, lightweight verification for small and medium-sized projects, traceable test logs, regression and E2E templates, and a health-report baseline.",
     "developerName": "ruska",
     "category": "Productivity",
     "capabilities": [
