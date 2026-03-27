@@ -1,0 +1,39 @@
+{
+  "name": "workflow-bootstrap",
+  "version": "0.1.0",
+  "description": "Initialize a numbered workflow workspace with global rules, TDD-first execution plans, and traceable testing templates.",
+  "author": {
+    "name": "ruska",
+    "email": "contact@example.com",
+    "url": "https://github.com/jqlong17"
+  },
+  "homepage": "https://github.com/jqlong17/plugins",
+  "repository": "https://github.com/jqlong17/plugins",
+  "license": "MIT",
+  "keywords": [
+    "workflow",
+    "tdd",
+    "testing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Workflow Bootstrap",
+    "shortDescription": "Initialize reusable collaboration workflow folders and rules.",
+    "longDescription": "Creates a numbered workflow directory tree with README indexing, global rules in 00-rule, TDD-first execution guidance, traceable test logs, regression and E2E templates, and a health-report baseline.",
+    "developerName": "ruska",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/jqlong17/plugins",
+    "privacyPolicyURL": "https://github.com/jqlong17/plugins",
+    "termsOfServiceURL": "https://github.com/jqlong17/plugins",
+    "defaultPrompt": [
+      "请初始化这个项目的协作工作流",
+      "新建一个协作工作流",
+      "帮我初始化 workflow 目录"
+    ],
+    "brandColor": "#0F766E"
+  }
+}

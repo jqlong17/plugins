@@ -1,0 +1,20 @@
+{
+  "name": "ruska-plugins",
+  "interface": {
+    "displayName": "Ruska Plugins"
+  },
+  "plugins": [
+    {
+      "name": "workflow-bootstrap",
+      "source": {
+        "source": "local",
+        "path": "./plugins/workflow-bootstrap"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

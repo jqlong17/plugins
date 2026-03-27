@@ -1,0 +1,45 @@
+# Workflow Bootstrap
+
+这个插件用于在任意项目根目录初始化一套统一的 `workflow/` 协作目录。
+
+它固化以下约定：
+
+- `README.md` 作为总索引，其他 Markdown 文档按 `00`、`01`、`02` 编号。
+- `00-rule` 专门存放全局协作规则。
+- `03-执行` 严格按 `Red -> Green -> Refactor` 的 TDD 方式编排执行计划。
+- `04-测试` 内置测试策略、回归计划、健康报告、测试用例与日志归档模板。
+- 测试要求可追溯、可复现、可还原，并明确覆盖率门槛大于等于 85%。
+
+## 使用方式
+
+当 Codex 选中这个插件后，可以直接说：
+
+- `请初始化这个项目的协作工作流`
+- `新建一个协作工作流`
+- `帮我初始化 workflow 目录`
+
+插件会调用：
+
+```bash
+python3 ../../scripts/init_workflow.py <target-project-root>
+```
+
+脚本默认把当前工作目录视为目标项目根目录；如果检测到已存在的 `workflow/`，则默认只给建议、不直接覆盖。
+
+## 主要入口
+
+- Skill: `skills/workflow-bootstrap/SKILL.md`
+- Script: `scripts/init_workflow.py`
+- Tests: `tests/test_init_workflow.py`
+
+## 插件目录
+
+```text
+workflow-bootstrap/
+├── .codex-plugin/plugin.json
+├── README.md
+├── assets/
+├── scripts/
+├── skills/
+└── tests/
+```
