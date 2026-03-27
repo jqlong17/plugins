@@ -65,9 +65,3 @@ plugins/
 1. clone 本仓库
 2. 使用仓库内的 `.agents/plugins/marketplace.json`
 3. 后续新增插件时，只需要继续往 `plugins/` 目录下添加，并同步更新 marketplace
-
-## 发布到 GitHub 前要补的内容
-
-- 创建远程仓库
-- 把 `plugins/workflow-bootstrap/.codex-plugin/plugin.json` 里的占位 GitHub 地址替换成真实地址
-- 如需公开分发，补充隐私政策和服务条款页面地址
