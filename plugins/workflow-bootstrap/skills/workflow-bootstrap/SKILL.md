@@ -37,12 +37,14 @@ python3 ../../scripts/init_workflow.py <target-project-root>
   - unit tests first
   - regression tests
   - E2E tests
+  - a lightweight verification loop for fast iteration
   - persistent logs
   - reproducible commands
   - traceable case IDs
   - a health report
   - coverage target `>= 85%`
 - Prefer mature testing tools already used in the target stack. If none are visible, recommend stable mainstream tools in the generated documents instead of inventing custom frameworks.
+- Prefer a lightweight verification rhythm for small and medium-sized projects instead of heavyweight enterprise-only gates.
 
 ## Notes
 
